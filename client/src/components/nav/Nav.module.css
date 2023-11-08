@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #85b4cc;
+  height: 5.5em;
+  padding: 0 1em;
+}
+
+.logoContainer {
+  padding: 0.5em;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 2em; /* Reducido el espaciado entre elementos del menú */
+}
+
+.navLinkText {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s; /* Agregada una transición suave para el cambio de color */
+}
+
+.navLinkText:hover {
+  color: #00FF6A; /* Color al hacer hover */
+}

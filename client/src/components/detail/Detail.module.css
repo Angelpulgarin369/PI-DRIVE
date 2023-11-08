@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding-bottom: 50px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  background-color: #222;
+  margin: 0 auto;
+  border: 4px solid white;
+  padding: 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+/* Estilos del botón "HOME" */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* Estilos del botón de descarga */
+.downloadButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.downloadButton:hover {
+  background-color: #0056b3;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: flex-start;
+  width: 60%;
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.rightColumn img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.detail img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.negrita {
+  font-weight: 700;
+  color: #f4f4f4;
+}
+
+.specialFont {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #f4f4f4;
+}
+
+.infoDriver {
+  margin: 20px 0;
+  color: #f4f4f4;
+}
+
+span {
+  margin-right: 10px;
+  color: #f4f4f4;
+}
+
+.title {
+  font-size: 30px;
+  margin: 10px 0;
+  color: #222;
+}

@@ -1,0 +1,55 @@
+
+/* Contenedor para el filtro y orden */
+.OrderFilter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+/* Contenedor para los botones de paginación */
+.botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Botones de paginación */
+.botones button {
+  border: none;
+  border-radius: 5px;
+  color: #ffcc33;
+  padding: 5px;
+  width: 200px;
+  cursor: pointer;
+  background-color: #5ab9ca;
+  color: #ff8533;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+/* Estilo para el número de página y mensaje central */
+.pageNum, .mensajeCentral {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  padding: 5px;
+  width: 45px;
+  background-color: #8b9edb;
+  color: #922c12;
+}
+
+.mensajeCentral {
+  background-color: transparent;
+  color: #2c93c2;
+  font-weight: bold;
+  padding: 8px;
+  border: 2px solid #2cc27c;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: 1.5rem;
+  white-space: nowrap;
+  width: 50%; /* Ajusta el ancho al 100% del contenedor */
+}
+

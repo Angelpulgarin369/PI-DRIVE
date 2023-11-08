@@ -1,0 +1,101 @@
+/* CreateDriver.module.css */
+
+.fatherContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding-bottom: 50px;
+  background-color: #d4dee0; /* Cambié el color de fondo */
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #1d5786;
+  box-shadow: 0 4px 12px rgba(185, 39, 39, 0.1); /* Hice que la sombra sea más prominente */
+  margin-top: 30px;
+  border: 2px solid #32b8ca; /* Cambié el color del borde */
+  border-radius: 8px; /* Agregué bordes redondeados */
+  padding: 20px;
+}
+
+.sidebar {
+  color: #e9e2e2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.formGroup {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 15px; /* Aumenté el espacio entre grupos */
+  width: 100%;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px; /* Añadí un relleno a los campos de entrada */
+  border: 1px solid #ccc; /* Agregué un borde a los campos de entrada */
+  border-radius: 4px; /* Añadí bordes redondeados */
+}
+
+.formLabel {
+  display: flex;
+  justify-content: flex-start;
+  width: 120px;
+  font-weight: bold; /* Hice que las etiquetas sean más audaces */
+}
+
+.errorMessage {
+  color: #ff0000;
+  font-size: 0.8rem; /* Aumenté el tamaño del mensaje de error */
+}
+
+.button {
+  width: 100%; /* El botón se extiende al 100% del contenedor */
+  font-size: 1.2rem; /* Aumenté el tamaño del texto del botón */
+  padding: 12px; /* Incrementé el relleno del botón */
+  color: #fff;
+  font-weight: 700;
+  background-color: #32b8ca; /* Cambié el color del botón */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px; /* Agregué bordes redondeados al botón */
+}
+
+.button:hover {
+  background-color: #fdb101;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.title {
+  font-size: 2.5rem; /* Aumenté el tamaño del título */
+  margin: 10px 0;
+  color: #32b8ca; /* Cambié el color del título */
+}
+
+

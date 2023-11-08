@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding: 20px 0;
+}
+
+.filterOrder {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.ordering,
+.filtering {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #1a1818;
+  padding: 20px;
+}
+
+.option,
+.label {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  accent-color: red;
+}
+
+.orden {
+  font-weight: 700;
+  padding: 0 10px;
+  color: red;
+}
+
+.radio {
+  margin-right: 5px;
+}
+

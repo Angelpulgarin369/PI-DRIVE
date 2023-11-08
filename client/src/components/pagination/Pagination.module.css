@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.pages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Cambié el ancho al 100% para asegurarnos de que se expanda correctamente */
+}
+
+/* Estilo para cada número de página */
+.page-number {
+  cursor: pointer;
+  padding: 5px 10px;
+  height: 30px; /* Aumenté la altura para facilitar el clic */
+  width: 30px; /* Aumenté el ancho para facilitar el clic */
+  font-size: 1rem; /* Tamaño de fuente un poco más grande */
+  border: 1px solid #000; /* Agregué un borde para hacer que los números destaquen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px; /* Espaciado entre los números */
+}
+
+/* Estilo cuando el número de página está activo */
+.page-number.active {
+  background-color: #F8553A; /* Color de fondo cuando está activo */
+  color: #ffffff; /* Color de texto cuando está activo */
+  font-weight: bold; /* Hice el texto en negrita para destacarlo */
+}
+
+.page-number:hover {
+  background-color: #FDC901; /* Color de fondo en hover */
+  color: #fff; /* Color de texto en hover */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave de color de fondo y texto en hover */
+}

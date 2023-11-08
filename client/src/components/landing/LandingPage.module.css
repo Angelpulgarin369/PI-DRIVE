@@ -1,0 +1,76 @@
+/* landingPage.module.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/531/72/20/red-bull-formula-1-car-racing-wallpaper-preview.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.content {
+  text-align: center;
+  color: #2ad199;
+  z-index: 1;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  padding-top: 80px; /* Ajusta este valor para mover el contenido hacia arriba */
+}
+
+.content h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.message-box {
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+  border-radius: 10px;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.message {
+  color: #1c70b4;
+  font-size: 24px;
+  text-align: center;
+}
+
+.enterButton {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #00ffaa;
+  color: #2014c5;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.enterButton:hover {
+  background-color: #2c79df;
+  color: black;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+  
