@@ -1,10 +1,13 @@
 const getDriverByName = require("../controllers/getDriverByName");
 
 const driverByNameHandler = async (req, res) => {
-    //cuando se recibe datos por query, la ruta no se rompe
+   
 
     const { name } = req.query;
 
+    console.log("Valor de 'name' recibido:", name);
+    
+  
     try {
         const drivers = await getDriverByName(name);
         res.status(200).json(drivers);
